@@ -1,10 +1,11 @@
 import {MdDarkMode} from 'react-icons/md';
 import {AiFillTwitterCircle , AiFillLinkedin } from 'react-icons/ai';
+import {AiFillGithub} from 'react-icons/ai';
 import kanye from './kanyeshot.png';
 import bmi from './bmishot.png';
 import { useState } from 'react';
 
-
+//https://github.com/AshenPI
 function App() {
   const [darkMode , setDarkMode] = useState(false);
   //dark:bg-slate-900 
@@ -79,6 +80,7 @@ function App() {
       <div className=' dark:text-white flex justify-center gap-6 '>
      <a href="https://www.linkedin.com/in/shadi-alenazi-65a87b187/"><AiFillLinkedin className=' text-6xl'/></a> 
      <a href="https://twitter.com/AshenPI"> <AiFillTwitterCircle className=' text-6xl' /></a>
+     <a href="https://github.com/AshenPI"> <AiFillGithub className=' text-6xl' /></a>
       </div>
    
       
