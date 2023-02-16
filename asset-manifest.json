@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8be812aa.css",
+    "main.js": "/portfolio/static/js/main.7ef0fcfb.js",
+    "static/media/kanyeshot.png": "/portfolio/static/media/kanyeshot.dbf0b8f8502c9b20836e.png",
+    "static/media/bmishot.png": "/portfolio/static/media/bmishot.5a65ac14fa29f7028291.png",
+    "index.html": "/portfolio/index.html",
+    "main.8be812aa.css.map": "/portfolio/static/css/main.8be812aa.css.map",
+    "main.7ef0fcfb.js.map": "/portfolio/static/js/main.7ef0fcfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8be812aa.css",
+    "static/js/main.7ef0fcfb.js"
+  ]
+}
