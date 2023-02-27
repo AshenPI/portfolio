@@ -3,6 +3,9 @@ import {AiFillTwitterCircle , AiFillLinkedin } from 'react-icons/ai';
 import {AiFillGithub} from 'react-icons/ai';
 import kanye from './kanyeshot.png';
 import bmi from './bmishot.png';
+import vaultify from "./Vaultify.png";
+import plank from "./Plank.png";
+import nomad from "./nomad.png";
 import { useState } from 'react';
 
 //https://github.com/AshenPI
@@ -45,6 +48,23 @@ function App() {
           </div>
         </section>
         <br />
+        <div className='grid place-items-center h-screen'>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
+  <img  className="w-full" src={vaultify} alt="Sunset in the mountains" />
+  <div className="px-6 py-4">
+    <div id='vaultify' className=" font-bold text-xl mb-2 dark:text-white">Vaultify</div>
+    <p className="text-gray-700 text-base dark:text-white">
+    My Graduation project
+    Vaultify a Cloud Point-of-Sale
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+  <a className='inline-block dark:text-white bg-cyan-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-cyan-100' href="https://github.com/AshenPI/Vaultify-main">Source Code</a>
+  </div>
+
+      </div>
+        </div>
+
           <div className=' grid place-items-center '>
         <div className="max-w-sm rounded overflow-hidden shadow-lg   ">
   <img  className="w-full " src={kanye} alt="Sunset in the mountains" />
@@ -76,7 +96,39 @@ function App() {
 
       </div>
         </div>
-     
+        <div className='grid place-items-center h-screen'>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
+  <img  className="w-full" src={plank} alt="Sunset in the mountains" />
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2 dark:text-white">Plank</div>
+    <p className="text-gray-700 text-base dark:text-white">
+    An Android App Using java The App enables you to calculate your BMI . IBW , and a Calorie Calculator and healthtips
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+  <a className='inline-block dark:text-white bg-cyan-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-cyan-100' href="https://github.com/AshenPI/Plank">Source code</a>
+  </div>
+
+
+      </div>
+        </div>
+
+        <div className='grid place-items-center h-screen'>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
+  <img  className="w-full" src={nomad} alt="Sunset in the mountains" />
+  <div className="px-6 py-4">
+    <div id='nomad' className="font-bold text-xl mb-2 dark:text-white">NOMAD</div>
+    <p className="text-gray-700 text-base dark:text-white">
+   Nomad is a Hiking reservation website fully functional using php
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+  <a className='inline-block dark:text-white bg-cyan-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-cyan-100' href="https://github.com/AshenPI/NOMAD">Source code</a>
+  </div>
+
+
+      </div>
+        </div>
       
       <div className=' dark:text-white flex justify-center gap-6 '>
      <a href="https://www.linkedin.com/in/shadi-alenazi-65a87b187/"><AiFillLinkedin className=' text-6xl'/></a> 
