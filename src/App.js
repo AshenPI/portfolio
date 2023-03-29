@@ -29,12 +29,12 @@ function App() {
                 
                 return  setDarkMode(!darkMode);
               } } className=' cursor-pointer text-2xl' /></li>
-          <li > <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1Ji_M_sgMxRmJoUVsXI2emZd6Eo63VWY5/view?usp=sharing">Resume</a></li>
+          <li > <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/196kkIeZO1hT8fPnG5ct10Nt3YJUb3YUS/view?usp=sharing">CV</a></li>
         </ul>
       </nav>
       <div className='text-center py-12'>
         <h2 className=' text-5xl text-teal-600 font-medium dark:text-white'>Shadi Abdulkarim</h2>
-      
+              
         <p className='dark:text-white'> IT Student interested in Security and Web Development</p>
       </div>
         
@@ -130,9 +130,25 @@ function App() {
       </div>
         </div>
       
+        <div className='grid place-items-center h-screen'>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
+  <img  className="w-full"  />
+  <div className="px-6 py-4">
+    <div id='' className="font-bold text-xl mb-2 dark:text-white">Node API</div>
+    <p className="text-gray-700 text-base dark:text-white">
+   A CRUD API using MongoDB and node js 
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+  <a className='inline-block dark:text-white bg-cyan-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-cyan-100' href="https://github.com/AshenPI/NodeCrudAPI">Source code</a>
+  </div>
+
+
+      </div>
+        </div>
+
       <div className=' dark:text-white flex justify-center gap-6 '>
      <a href="https://www.linkedin.com/in/shadi-alenazi-65a87b187/"><AiFillLinkedin className=' text-6xl'/></a> 
-     <a href="https://twitter.com/AshenPI"> <AiFillTwitterCircle className=' text-6xl' /></a>
      <a href="https://github.com/AshenPI"> <AiFillGithub className=' text-6xl' /></a>
       </div>
    
