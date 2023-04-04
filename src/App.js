@@ -6,6 +6,9 @@ import bmi from './bmishot.png';
 import vaultify from "./Vaultify.png";
 import plank from "./Plank.png";
 import nomad from "./nomad.png";
+import nodejs from "./nodejs.png";
+import npmlogo from "./npm-logo.png";
+
 import { useState } from 'react';
 
 //https://github.com/AshenPI
@@ -20,7 +23,7 @@ function App() {
         
         
       
-      <main className=' bg-white px-10 dark:bg-slate-900 '>
+      <main className=' bg-white px-10 dark:bg-slate-900  '>
    
       <nav className=' py-10 mb-12 flex justify-between'>
         <h1 className=' dark:text-white text-xl'></h1>
@@ -29,7 +32,7 @@ function App() {
                 
                 return  setDarkMode(!darkMode);
               } } className=' cursor-pointer text-2xl' /></li>
-          <li > <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/196kkIeZO1hT8fPnG5ct10Nt3YJUb3YUS/view?usp=sharing">CV</a></li>
+          <li > <a className=' bg-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1MxexsUJdDSsl5JJuvF5YOLlTpUKnHjdt/view?usp=sharing">CV</a></li>
         </ul>
       </nav>
       <div className='text-center py-12'>
@@ -48,7 +51,9 @@ function App() {
           </div>
         </section>
         <br />
-        <div className='grid place-items-center h-screen'>
+        <div class="grid gap-4 desktop:grid-cols-2 laptop:grid-cols-4  ">
+
+        <div className=' grid place-items-center h-screen '>
       <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
   <img  className="w-full" src={vaultify} alt="Sunset in the mountains" />
   <div className="px-6 py-4">
@@ -132,7 +137,7 @@ function App() {
       
         <div className='grid place-items-center h-screen'>
       <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
-  <img  className="w-full"  />
+  <img  className="w-full" src={nodejs} alt="node js logo"  />
   <div className="px-6 py-4">
     <div id='' className="font-bold text-xl mb-2 dark:text-white">Node API</div>
     <p className="text-gray-700 text-base dark:text-white">
@@ -147,8 +152,25 @@ function App() {
       </div>
         </div>
 
+        <div className='grid place-items-center h-screen'>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg  ">
+  <img  className="w-full" src={npmlogo} alt="npm package logo"  />
+  <div className="px-6 py-4">
+    <div id='' className="font-bold text-xl mb-2 dark:text-white">Basicalc</div>
+    <p className="text-gray-700 text-base dark:text-white">
+    Basicalc is a simple npm package that can do 1- additon 2- subtraction 3- multiplication 4- division 5- powers
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+  <a className='inline-block dark:text-white bg-cyan-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:bg-cyan-100' href="https://www.npmjs.com/package/basicalc">Source code</a>
+  </div>
+
+
+      </div>
+        </div>
+</div>
       <div className=' dark:text-white flex justify-center gap-6 '>
-     <a href="https://www.linkedin.com/in/shadi-alenazi-65a87b187/"><AiFillLinkedin className=' text-6xl'/></a> 
+     <a href="https://www.linkedin.com/in/shadi-abdulkarim/"><AiFillLinkedin className=' text-6xl'/></a> 
      <a href="https://github.com/AshenPI"> <AiFillGithub className=' text-6xl' /></a>
       </div>
    
